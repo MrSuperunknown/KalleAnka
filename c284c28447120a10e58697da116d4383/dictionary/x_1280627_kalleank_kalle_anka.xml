@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ee958a0847120a10e58697da116d43a8" label="Kalle Anka" max_length="40" name="x_1280627_kalleank_kalle_anka" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Item" mandatory="true" max_length="125" name="item" type="string"/>
+        <element attributes="encode_utf8=false" label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="requester"/>
+        </index>
+    </element>
+</database>
